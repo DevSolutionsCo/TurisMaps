@@ -1,0 +1,100 @@
+.fondo{
+    background-image: url(imgs/fondo2.png);
+    background-repeat: no-repeat;
+    background-position: -5% 225%;
+    position:absolute;
+}
+h1{
+    font-family:monospace;
+    font-size: 50px;
+    color:rgb(100, 92, 215);
+    text-align: center;
+    font-weight:bold;
+    justify-content: center;
+}
+
+.cont-img{
+    align-items: center;
+    position: relative;
+    width: 40%;
+    left: 10%;
+    top: 40%;
+}
+.foto{
+    width: 380px;
+    height: 500px;
+    left: 10%;
+    filter: blur(5px)grayscale(80%);
+}
+
+.foto:hover{
+    filter:blur(0px)saturate(170%);
+
+}
+
+
+.foto, foto:hover, .cont-text, .cont-text:hover {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.cont-text{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.cont-lis{
+    width: 50%;
+    left: 60%;  
+    text-align: justify;
+}
+
+.textos{    
+    font-size: x-large;
+    font-family: monospace;
+    color: #292828;
+    left: 40%;
+}
+
+ul{
+    left: 5rem;
+    list-style-type: none;
+}
+  
+ul li{
+    padding-left: 2rem;
+    background-image: url(imgs/flechaestra.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.text-img{
+    color: rgb(88, 90, 92);
+    font-family: monospace;
+    text-align: left;
+    left: 17%;
+    position: relative;
+    top: 10px;
+    width: 600px;
+}
+
+.ani2{
+    animation-duration: 4s;
+    animation-name: apear1;
+    animation-iteration-count:initial;
+    animation-direction:normal;
+}
+
+@keyframes apear1{
+    from{
+    opacity: 0;
+    }
+    to{
+    opacity: 1;
+    }
+}

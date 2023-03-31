@@ -1,0 +1,44 @@
+body{
+    background-color: aliceblue;
+    margin: 30px;
+}
+.titu{
+    text-align: center;
+    font-size: 60px;
+    color: lightsalmon;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+.imagen{
+    border-radius: 30px;
+    margin-left: 29%;
+    margin-top: 7%;
+}
+.ani{
+    animation-delay: 0ms;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+    animation-name: ey;
+    
+}
+@keyframes ey{
+    from{opacity: 0;
+    margin-right: 100%;}
+    to{opacity: 1;
+    margin-right: 0%;}
+}
+.aniimg{
+    animation-delay: 0ms;
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-iteration-count: initial;
+    animation-name: jo;
+}
+@keyframes jo{
+    from{opacity: 0; 
+    margin-left: 100%;}
+    to{opacity: 1;
+    margin-left: 0%;}
+}
