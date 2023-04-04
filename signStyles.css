@@ -29,7 +29,7 @@ body {
     margin:0;
     padding:0;
     font-family: monospace;
-    background: linear-gradient(#383737, #5a5a5a);
+    background: linear-gradient(#ffffff, #afafaf);
 }
   
 .signIn-box {
@@ -116,6 +116,17 @@ option{
     
 }
 
+.labels-pais{
+    position: absolute;
+    top:-18px;
+    left: 0;
+    padding: 0px 0;
+    font-size: 16px;
+    color: #666565;
+    pointer-events: none;
+    transition: .5s;
+}  
+
 .labels{
     position: absolute;
     top:0;
@@ -144,6 +155,13 @@ option{
 .signIn-box .user-box input:focus ~ label,
 .signIn-box .user-box input:valid ~ label {
     top: -20px;
+    left: 0;
+    color: #000000;
+    font-size: 12px;
+}
+
+.signIn-box .pais-box input:valid ~ label {
+    top: -15px;
     left: 0;
     color: #000000;
     font-size: 12px;
