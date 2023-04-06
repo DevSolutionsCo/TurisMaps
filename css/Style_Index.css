@@ -1,0 +1,32 @@
+/*
+Barra de navegacion
+*/
+.LogoText
+{
+    font-weight: bold;
+}
+
+#liNav
+{
+padding: 0px 7px;    
+}
+
+.navegacionspan 
+{
+    font-weight: bold;
+}
+/*
+FIN Barra de navegacion
+*/
+
+/*
+Carrousel
+*/
+.carousel-inner
+{
+max-height: 100vh;
+max-height: 100vh;
+}
+/*
+FIN Carrousel
+*/
