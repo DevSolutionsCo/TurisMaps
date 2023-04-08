@@ -116,17 +116,6 @@ option{
     
 }
 
-.labels-pais{
-    position: absolute;
-    top:-18px;
-    left: 0;
-    padding: 0px 0;
-    font-size: 16px;
-    color: #666565;
-    pointer-events: none;
-    transition: .5s;
-}  
-
 .labels{
     position: absolute;
     top:0;
@@ -150,18 +139,23 @@ option{
     
 }
 
+.labels-pais{
+    position: absolute;
+    top:-18px;
+    left: 0;
+    padding: 0px 0;
+    font-size: 16px;
+    color: #666565;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
 
   
 .signIn-box .user-box input:focus ~ label,
 .signIn-box .user-box input:valid ~ label {
     top: -20px;
-    left: 0;
-    color: #000000;
-    font-size: 12px;
-}
-
-.signIn-box .pais-box input:valid ~ label {
-    top: -15px;
     left: 0;
     color: #000000;
     font-size: 12px;
@@ -182,8 +176,8 @@ option{
 }
  
 .signIn-box a:hover {
-    background: #161616;
-    color: #e4e3e3;
+    background: #dadada;
+    color: #000000;
     border-radius: 5px;
     box-shadow: 0 0 1px #6558db,
                 0 0 10px #6558db,

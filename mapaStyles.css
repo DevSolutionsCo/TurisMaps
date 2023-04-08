@@ -1,0 +1,143 @@
+.navbar-brand{
+color: rgb(37, 50, 56) !important;
+font-size: x-large !important;
+}
+
+.nav-link{
+    color: rgb(48, 55, 58) !important;
+    font-size: larger !important;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: monospace;
+    background: linear-gradient(#ffffff, #afafaf);
+}
+
+html {
+    height: 100%;
+}
+
+.mapa{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.mapa_ele{
+    fill: #5957cf;
+    stroke: black;
+    stroke-width: 2px;
+}
+.mapa :hover{
+    fill: rgb(99, 96, 96);
+
+}
+
+.overlay{
+    background: rgb(37, 50, 56,.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.overlay.active{
+    visibility: visible;
+}
+
+.popup{
+    background: #afafaf;
+    box-shadow: 0px, 0px, 5px, 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: monospace;
+    padding: 10px;
+    width: 80%;
+    height: 80%;
+
+    transition: .3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+
+}
+
+
+
+.cerrar_alca{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    background-color:#afafaf ;
+    border-color: #afafaf;
+    font-size: 20px;
+    display: block;
+    transition: .3s ease all;
+    line-height: 16px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.lugares h1{
+    text-align: center;
+}
+
+.img_l1{
+    width: 300px;
+    height: 200px;
+}
+.img_l2{
+    width: 300px;
+    height: 200px;
+}
+
+
+.popup.active {	transform: scale(1); opacity: 1; }
+.overlay.active {	transform: scale(1); opacity: 1; }
+
+
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaInputs {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
