@@ -157,6 +157,7 @@ html {
     width: 550px;
     height: 275px;
     justify-content: center;
+    border-radius: 10px;
 }
 
 .galeria_lugares img{
