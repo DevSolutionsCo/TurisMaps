@@ -244,7 +244,7 @@
                <div class="line1">
                   <div class="lugar_1">
                      <div >
-                        <a href="" id="btn_l1">
+                        <a href="" id="btn_l1_mh">
                         <img src="img/casticha.jpg" alt="" class="img_l1">
                         </a>
                      </div>
@@ -259,7 +259,7 @@
                         </a>
                      </div>
                      <div class="nomb_l2">
-                        <h5>Castillo de Chapultepec</h5>
+                        <h5>Lugar 2</h5>
                      </div>
                   </div>
                   <div class="lugar_3">
@@ -269,7 +269,7 @@
                         </a>
                      </div>
                      <div class="nomb_l3">
-                        <h5>Castillo de Chapultepec</h5>
+                        <h5>Lugar 3</h5>
                      </div>
                   </div>
                </div>
@@ -281,7 +281,7 @@
                         </a>
                      </div>
                      <div class="nomb_l4">
-                        <h5>Castillo de Chapultepec</h5>
+                        <h5>Lugar 4</h5>
                      </div>
                   </div>
                   <div class="lugar_5">
@@ -291,12 +291,76 @@
                         </a>
                      </div>
                      <div class="nomb_l5">
-                        <h5>Castillo de Chapultepec</h5>
+                        <h5>Lugar 5</h5>
                      </div>
                   </div>
                </div>
             </div>
          </section>
+      </div>
+   </div>
+   <div class="overlay" id="overlay_l1_mh">
+      <div class="popup" id="popup_l1_mh">
+         <a  href="#" id="cerrar_l1_mh" class="cerrar_alca" >X</a>
+         <div class="container_galeria">
+            <section class="galeria_lugares">
+               <img src="https://www.chapultepec.com.mx/imagenes/contenido/main_CastilloChapultepec.jpg" alt="">
+               <img src="https://topadventure.com/__export/1649438019693/sites/laverdad/img/2022/04/08/castillo_de_chapultepec_portada.jpg_486633154.jpg" alt="">
+               <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ee/58/f6/garden-on-the-roof.jpg?w=1200&h=-1&s=1" alt="">
+               <img src="https://www.elsoldepuebla.com.mx/incoming/buncb3-castillo-de-chapultepec.jpg/ALTERNATES/LANDSCAPE_768/Castillo-de-Chapultepec.jpg" alt="">
+               <img src="https://cdn.milenio.com/uploads/media/2018/12/28/inmueble-convirtio-museo-nacional-historia-1_0_184_1543_960.jpg" alt="">
+            </section>
+         </div>
+         <div class="line1">
+            <div class="datos_lugares">
+               <div class="line2">
+                  <div class="hora_lugares">
+                     <h5>Hora de Servicio</h5>
+                     
+                     <p>9:00-17:00 LaV</p>
+                  </div>
+                  <div class="metro_lugares">
+                     <h5>Estaciones de Metro</h5>
+                     <p>Linea 1</p>
+                  </div>
+               </div>
+               <div class="line2">
+                  <div class="desc_lugares">
+                     <h5>Descripcion</h5>
+                     <p>El Castillo de Chapultepec es un edificio ubicado en la primera sección del bosque de Chapultepec en la Ciudad de México, a 2325 metros sobre el nivel del mar. Tiene una superficie de 11.8 hectáreas​​ y un diseño arquitectónico principalmente barroco y neoclásico.​</p>
+                  </div>
+               </div>
+               <div class="line2">
+                  <div class="zona_lugares">
+                     <h5>Clasificacion Zona</h5>
+                     <p class="color_zona_verde">Zona Verde. <br>Puedes andar feliz aqui.</p>
+                  </div>
+                  <div class="direc_lugares">
+                     <h5>Direccion</h5>
+                     <a href="https://goo.gl/maps/57U3BQK9AKBJbZBs6" alt="" target="_blank">Miralo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="coment_lugares">
+               <section id="app">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-6">
+                           <div class="comment">
+                              <p v-for="intems in item" v-text="items"></p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-6">
+                           <textarea type="text" class="input" placeholder="Agrega un comentario" v-model="newItem" @servicios.web="addItem()"></textarea>
+                           <button v-on:click="addItem()" class="primaryContained float-right" type="Enviar">Añadir Comentarios</button>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </div>
       </div>
    </div>
    <script src="popup.js"></script>
