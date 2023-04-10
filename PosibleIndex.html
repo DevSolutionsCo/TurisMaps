@@ -18,10 +18,11 @@
     <!-- ============================ -->
 
     <!-- ===============BARRA DE NAVEGACION===============-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="./Imagenes/logo_Dev_Mini.png" alt="" width="54" height="54">
+            <img src="./css/Imagenes/logo_Dev_Mini.png" alt="" width="54" height="54">
             <span class ="LogoText">TurisMaps</span>
           </a>
 
@@ -35,7 +36,7 @@
                 <a class="nav-link active" aria-current="page" href="#"> <span class="navegacionspan"> Inicio </span> </a>
               </li>
               <li class="nav-item" id="liNav">
-                <a class="nav-link active" href="#"> <span class="navegacionspan">Descubrenos</span></a>
+                <a class="nav-link active" target="_blank" href="http://devsolutions.gerdoc.com/"> <span class="navegacionspan">Descubrenos</span></a>
               </li>
               <li class="nav-item" id="liNav">
                 <a class="nav-link active" aria-current="page" href="#"> <span class="navegacionspan"> Nose </span> </a>
@@ -51,34 +52,17 @@
           </div>
         </div>
       </nav>
-    <!-- ============================ -->
-    <!-- ===============Carousel===============-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./Imagenes/Angel.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./Imagenes/BellasArtes.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./Imagenes/revo.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+   
+    <!-- ============================ -->
+    <!-- ===============Inicio===============-->
+    <div class="container-fluid" id ="main">
+    <h1 class = "textomain">TurisMaps <br> Descubre la Ciudad de México!</h1>
+    <div class="botonesmain">
+      <button type="button" class="btn btn-light " id="botonesmainID">Accion 1</button>
+      <button type="button" class="btn btn-light " id="botonesmainID">Accion 2</button>
+    </div>
+  </div>
     <!-- ============================ -->
 </body>
 </html>
