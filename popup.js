@@ -48,3 +48,19 @@ cerrar_l1_mh.addEventListener('click' ,function(){
     overlay_l1_mh.classList.remove('active');
     popup_l1_mh.classList.remove('active');
 });
+
+
+var btn_l2_mh = document.getElementById("btn_l2_mh"),
+    overlay_l2_mh = document.getElementById("overlay_l2_mh"),
+    popup_l2_mh = document.getElementById("popup_l2_mh"),
+    cerrar_l2_mh = document.getElementById("cerrar_l2_mh");
+
+    btn_l2_mh.addEventListener('mousedown', function(){
+    overlay_l2_mh.classList.add('active');
+    popup_l2_mh.classList.add('active');
+});
+
+cerrar_l2_mh.addEventListener('click' ,function(){
+    overlay_l2_mh.classList.remove('active');
+    popup_l2_mh.classList.remove('active');
+});

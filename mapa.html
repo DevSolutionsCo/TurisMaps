@@ -244,8 +244,8 @@
                <div class="line1">
                   <div class="lugar_1">
                      <div >
-                        <a href="" id="btn_l1_mh">
-                        <img src="img/casticha.jpg" alt="" class="img_l1">
+                        <a href="" id="btn_l1_mh" >
+                        <img class="img_l1" src="img/casticha.jpg" alt="" >
                         </a>
                      </div>
                      <div class="nomb_l1">
@@ -254,44 +254,44 @@
                   </div>
                   <div class="lugar_2">
                      <div >
-                        <a href="#" id="btn_l2">
-                        <img src="img/casticha.jpg" alt="" class="img_l2">
+                        <a href="#" id="btn_l2_mh">
+                        <img src="img/bicente.jpg" alt="" class="img_l2">
                         </a>
                      </div>
                      <div class="nomb_l2">
-                        <h5>Lugar 2</h5>
+                        <h5>Parque Bicentenario</h5>
                      </div>
                   </div>
                   <div class="lugar_3">
                      <div >
-                        <a href="#" id="btn_l3">
-                        <img src="img/casticha.jpg" alt="" class="img_l2">
+                        <a href="#" id="btn_l3_mh">
+                        <img src="img/auditorio.jpg" alt="" class="img_l2">
                         </a>
                      </div>
                      <div class="nomb_l3">
-                        <h5>Lugar 3</h5>
+                        <h5>Auditorio Nacional</h5>
                      </div>
                   </div>
                </div>
                <div class="line1">
                   <div class="lugar_4">
                      <div >
-                        <a href="#" id="btn_l4">
-                        <img src="img/casticha.jpg" alt="" class="img_l2">
+                        <a href="#" id="btn_l4_mh">
+                        <img src="img/antro.jpg" alt="" class="img_l2">
                         </a>
                      </div>
                      <div class="nomb_l4">
-                        <h5>Lugar 4</h5>
+                        <h5>Museo de Antropologia</h5>
                      </div>
                   </div>
                   <div class="lugar_5">
                      <div >
-                        <a href="#" id="btn_l5">
-                        <img src="img/casticha.jpg" alt="" class="img_l2">
+                        <a href="#" id="btn_l5_mh">
+                        <img src="img/refroma.jpg" alt="" class="img_l2">
                         </a>
                      </div>
                      <div class="nomb_l5">
-                        <h5>Lugar 5</h5>
+                        <h5>Paseo de la Reforma</h5>
                      </div>
                   </div>
                </div>
@@ -338,6 +338,134 @@
                   <div class="direc_lugares">
                      <h5>Direccion</h5>
                      <a href="https://goo.gl/maps/57U3BQK9AKBJbZBs6" alt="" target="_blank">Miralo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="coment_lugares">
+               <section id="app">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-6">
+                           <div class="comment">
+                              <p v-for="intems in item" v-text="items"></p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-6">
+                           <textarea type="text" class="input" placeholder="Agrega un comentario" v-model="newItem" @servicios.web="addItem()"></textarea>
+                           <button v-on:click="addItem()" class="primaryContained float-right" type="Enviar">Añadir Comentarios</button>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="overlay" id="overlay_l2_mh">
+      <div class="popup" id="popup_l2_mh">
+         <a  href="#" id="cerrar_l2_mh" class="cerrar_alca" >X</a>
+         <div class="container_galeria">
+            <section class="galeria_lugares">
+               <img src="https://www.dondeir.com/wp-content/uploads/2020/06/parque-bicentenario-areas-verdes.jpg" alt="">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Parque_Bicentenario%2C_D.f..JPG" alt="">
+               <img src="https://parquesalegres.org/wp-content/uploads/2021/06/Bicentenario-parque.jpeg" alt="">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Parque_Bicentenario%2C_Vitacura%2C_Santiago_20200314_02.jpg" alt="">
+               <img src="https://cdn.wegow.com/media/venues/parque-bicentenario-cdad-mexico/parque-bicentenario-cdad-mexico-1578072045.0049078.2560x1440.jpg" alt="">
+            </section>
+         </div>
+         <div class="line1">
+            <div class="datos_lugares">
+               <div class="line2">
+                  <div class="hora_lugares">
+                     <h5>Hora de Servicio</h5>
+                     
+                     <p>7:00-18:00 MaD</p>
+                  </div>
+                  <div class="metro_lugares">
+                     <h5>Estaciones de Metro</h5>
+                     <p>Linea 7 - Metro Refineria</p>
+                  </div>
+               </div>
+               <div class="line2">
+                  <div class="desc_lugares">
+                     <h5>Descripcion</h5>
+                     <p>El Parque Bicentenario es un parque de la Ciudad de México. Está situado en la zona poniente, en los límites de las alcaldías Azcapotzalco y Miguel Hidalgo.​</p>
+                  </div>
+               </div>
+               <div class="line2">
+                  <div class="zona_lugares">
+                     <h5>Clasificacion Zona</h5>
+                     <p class="color_zona_verde">Zona Verde. <br>Puedes andar feliz aqui.</p>
+                  </div>
+                  <div class="direc_lugares">
+                     <h5>Direccion</h5>
+                     <a href="https://goo.gl/maps/Y2pHTfxAM6fXEyVE7" alt="" target="_blank">Miralo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="coment_lugares">
+               <section id="app">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-6">
+                           <div class="comment">
+                              <p v-for="intems in item" v-text="items"></p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-6">
+                           <textarea type="text" class="input" placeholder="Agrega un comentario" v-model="newItem" @servicios.web="addItem()"></textarea>
+                           <button v-on:click="addItem()" class="primaryContained float-right" type="Enviar">Añadir Comentarios</button>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="overlay" id="overlay_l3_mh">
+      <div class="popup" id="popup_l3_mh">
+         <a  href="#" id="cerrar_l3_mh" class="cerrar_alca" >X</a>
+         <div class="container_galeria">
+            <section class="galeria_lugares">
+               <img src="https://www.dondeir.com/wp-content/uploads/2020/06/parque-bicentenario-areas-verdes.jpg" alt="">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Parque_Bicentenario%2C_D.f..JPG" alt="">
+               <img src="https://parquesalegres.org/wp-content/uploads/2021/06/Bicentenario-parque.jpeg" alt="">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Parque_Bicentenario%2C_Vitacura%2C_Santiago_20200314_02.jpg" alt="">
+               <img src="https://cdn.wegow.com/media/venues/parque-bicentenario-cdad-mexico/parque-bicentenario-cdad-mexico-1578072045.0049078.2560x1440.jpg" alt="">
+            </section>
+         </div>
+         <div class="line1">
+            <div class="datos_lugares">
+               <div class="line2">
+                  <div class="hora_lugares">
+                     <h5>Hora de Servicio</h5>
+                     
+                     <p>7:00-18:00 MaD</p>
+                  </div>
+                  <div class="metro_lugares">
+                     <h5>Estaciones de Metro</h5>
+                     <p>Linea 7 - Metro Refineria</p>
+                  </div>
+               </div>
+               <div class="line2">
+                  <div class="desc_lugares">
+                     <h5>Descripcion</h5>
+                     <p>El Parque Bicentenario es un parque de la Ciudad de México. Está situado en la zona poniente, en los límites de las alcaldías Azcapotzalco y Miguel Hidalgo.​</p>
+                  </div>
+               </div>
+               <div class="line2">
+                  <div class="zona_lugares">
+                     <h5>Clasificacion Zona</h5>
+                     <p class="color_zona_verde">Zona Verde. <br>Puedes andar feliz aqui.</p>
+                  </div>
+                  <div class="direc_lugares">
+                     <h5>Direccion</h5>
+                     <a href="https://goo.gl/maps/Y2pHTfxAM6fXEyVE7" alt="" target="_blank">Miralo</a>
                   </div>
                </div>
             </div>
