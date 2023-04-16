@@ -48,7 +48,20 @@ cerrar_alca_bj.addEventListener('click' ,function(){
 });
 
 
+var btn_abrir_xo = document.getElementById("btn_abrir_xo"),
+    overlay_xo = document.getElementById("overlay_xo"),
+    popup_xo = document.getElementById("popup_xo"),
+    cerrar_alca_xo = document.getElementById("cerrar_alca_xo");
 
+btn_abrir_xo.addEventListener('mousedown', function(){
+    overlay_xo.classList.add('active');
+    popup_xo.classList.add('active');
+});
+
+cerrar_alca_xo.addEventListener('click' ,function(){
+    overlay_xo.classList.remove('active');
+    popup_xo.classList.remove('active');
+});
 
 
 //Acciones de los Lugares
@@ -158,6 +171,83 @@ var btn_l5_bj = document.getElementById("btn_l5_bj"),
 cerrar_l5_bj.addEventListener('click' ,function(){
     overlay_l5_bj.classList.remove('active');
     popup_l5_bj.classList.remove('active');
+});
+
+var btn_l1_xo = document.getElementById("btn_l1_xo"),
+    overlay_l1_xo = document.getElementById("overlay_l1_xo"),
+    popup_l1_xo = document.getElementById("popup_l1_xo"),
+    cerrar_l1_xo = document.getElementById("cerrar_l1_xo");
+
+    btn_l1_xo.addEventListener('mousedown', function(){
+    overlay_l1_xo.classList.add('active');
+    popup_l1_xo.classList.add('active');
+});
+
+cerrar_l1_xo.addEventListener('click' ,function(){
+    overlay_l1_xo.classList.remove('active');
+    popup_l1_xo.classList.remove('active');
+});
+
+
+var btn_l2_xo = document.getElementById("btn_l2_xo"),
+    overlay_l2_xo = document.getElementById("overlay_l2_xo"),
+    popup_l2_xo = document.getElementById("popup_l2_xo"),
+    cerrar_l2_xo = document.getElementById("cerrar_l2_xo");
+
+    btn_l2_xo.addEventListener('mousedown', function(){
+    overlay_l2_xo.classList.add('active');
+    popup_l2_xo.classList.add('active');
+});
+
+cerrar_l2_xo.addEventListener('click' ,function(){
+    overlay_l2_xo.classList.remove('active');
+    popup_l2_xo.classList.remove('active');
+});
+
+var btn_l3_xo = document.getElementById("btn_l3_xo"),
+    overlay_l3_xo = document.getElementById("overlay_l3_xo"),
+    popup_l3_xo = document.getElementById("popup_l3_xo"),
+    cerrar_l3_xo = document.getElementById("cerrar_l3_xo");
+
+    btn_l3_xo.addEventListener('mousedown', function(){
+    overlay_l3_xo.classList.add('active');
+    popup_l3_xo.classList.add('active');
+});
+
+cerrar_l3_xo.addEventListener('click' ,function(){
+    overlay_l3_xo.classList.remove('active');
+    popup_l3_xo.classList.remove('active');
+});
+
+
+var btn_l4_xo = document.getElementById("btn_l4_xo"),
+    overlay_l4_xo = document.getElementById("overlay_l4_xo"),
+    popup_l4_xo = document.getElementById("popup_l4_xo"),
+    cerrar_l4_xo = document.getElementById("cerrar_l4_xo");
+
+    btn_l4_xo.addEventListener('mousedown', function(){
+    overlay_l4_xo.classList.add('active');
+    popup_l4_xo.classList.add('active');
+});
+
+cerrar_l4_xo.addEventListener('click' ,function(){
+    overlay_l4_xo.classList.remove('active');
+    popup_l4_xo.classList.remove('active');
+});
+
+var btn_l5_xo = document.getElementById("btn_l5_xo"),
+    overlay_l5_xo = document.getElementById("overlay_l5_xo"),
+    popup_l5_xo = document.getElementById("popup_l5_xo"),
+    cerrar_l5_xo = document.getElementById("cerrar_l5_xo");
+
+    btn_l5_xo.addEventListener('mousedown', function(){
+    overlay_l5_xo.classList.add('active');
+    popup_l5_xo.classList.add('active');
+});
+
+cerrar_l5_xo.addEventListener('click' ,function(){
+    overlay_l5_xo.classList.remove('active');
+    popup_l5_xo.classList.remove('active');
 });
 
 //Panel imgs
