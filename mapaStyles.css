@@ -8,16 +8,7 @@ font-size: x-large !important;
     font-size: larger !important;
 }
 
-body {
-    margin:0;
-    padding:0;
-    font-family: monospace;
-    background: linear-gradient(#ffffff, #afafaf);
-}
 
-html {
-    height: 100%;
-}
 
 .mapa{
     justify-content: center;
@@ -25,6 +16,7 @@ html {
     display: flex;
     height: 100%;
     width: 100%;
+    padding-top: 130px;
 }
 
 .mapa_ele{
@@ -48,10 +40,12 @@ html {
     align-items: center;
     justify-content: center;
     visibility: hidden;
+    scroll-snap-type: none;
 }
 
 .overlay.active{
     visibility: visible;
+    opacity: 1;
 }
 
 .popup{
