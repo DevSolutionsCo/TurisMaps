@@ -1,6 +1,6 @@
 /*
 Barra de navegacion
-*/
+*/ 
 
 #NavBarXD
 {
@@ -132,6 +132,35 @@ Featured
 
 }
 
+#Featured .card-img-top
+{
+    padding-top: 0;
+    max-height: 400px;
+    min-height: 400px;
+    max-width: 100%;
+
+}
+
+#Featured .card
+{
+    padding-top: 0;
+    margin-top: 5rem;
+    max-width: 600px;
+    max-height: 700px;
+    padding-right: 0;
+
+}
+
+#Featured .Visitas
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
 /*
 FinFeatured
 */
@@ -197,4 +226,5 @@ FinFeatured
     border: 0px 
 }
 }
+
 
