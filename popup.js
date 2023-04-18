@@ -16,6 +16,43 @@ cerrar_alca_coyo.addEventListener('click' ,function(){
     popup_coyo.classList.remove('active');
 });
 
+//Cuau
+var btn_abrir_cuau = document.getElementById("btn_abrir_cuau"),
+    overlay_cuau = document.getElementById("overlay_cuau"),
+    popup_cuau = document.getElementById("popup_cuau"),
+    cerrar_alca_cuau = document.getElementById("cerrar_alca_cuau");
+
+btn_abrir_cuau.addEventListener('mousedown', function(){
+    overlay_cuau.classList.add('active');
+    popup_cuau.classList.add('active');
+});
+
+cerrar_alca_cuau.addEventListener('click' ,function(){
+    overlay_cuau.classList.remove('active');
+    popup_cuau.classList.remove('active');
+});
+
+//Fin Cuau
+
+
+//Morelos
+
+var btn_abrir_morelos = document.getElementById("btn_abrir_morelos"),
+    overlay_morelos = document.getElementById("overlay_morelos"),
+    popup_morelos = document.getElementById("popup_morelos"),
+    cerrar_alca_morelos = document.getElementById("cerrar_alca_morelos");
+
+btn_abrir_morelos.addEventListener('mousedown', function(){
+    overlay_morelos.classList.add('active');
+    popup_morelos.classList.add('active');
+});
+
+cerrar_alca_morelos.addEventListener('click' ,function(){
+    overlay_morelos.classList.remove('active');
+    popup_morelos.classList.remove('active');
+});
+
+// Fin Morelos
 
 
 var btn_abrir_mh = document.getElementById("btn_abrir_mh"),
@@ -116,81 +153,171 @@ cerrar_l5_mh.addEventListener('click' ,function(){
 });
 
 
-var btn_l1_coyo = document.getElementById("btn_l1_coyo"),
-    overlay_l1_coyo = document.getElementById("overlay_l1_coyo"),
-    popup_l1_coyo = document.getElementById("popup_l1_coyo"),
-    cerrar_l1_coyo = document.getElementById("cerrar_l1_coyo");
 
-    btn_l1_coyo.addEventListener('mousedown', function(){
-    overlay_l1_coyo.classList.add('active');
-    popup_l1_coyo.classList.add('active');
+
+//Cuauthemoc
+
+var btn_l1_cuau = document.getElementById("btn_l1_cuau"),
+    overlay_l1_cuau = document.getElementById("overlay_l1_cuau"),
+    popup_l1_cuau = document.getElementById("popup_l1_cuau"),
+    cerrar_l1_cuau = document.getElementById("cerrar_l1_cuau");
+
+    btn_l1_cuau.addEventListener('mousedown', function(){
+    overlay_l1_cuau.classList.add('active');
+    popup_l1_cuau.classList.add('active');
 });
 
-cerrar_l1_coyo.addEventListener('click' ,function(){
-    overlay_l1_coyo.classList.remove('active');
-    popup_l1_coyo.classList.remove('active');
-});
-
-
-var btn_l2_coyo = document.getElementById("btn_l2_coyo"),
-    overlay_l2_coyo = document.getElementById("overlay_l2_coyo"),
-    popup_l2_coyo = document.getElementById("popup_l2_coyo"),
-    cerrar_l2_coyo = document.getElementById("cerrar_l2_coyo");
-
-    btn_l2_coyo.addEventListener('mousedown', function(){
-    overlay_l2_coyo.classList.add('active');
-    popup_l2_coyo.classList.add('active');
-});
-
-cerrar_l2_coyo.addEventListener('click' ,function(){
-    overlay_l2_coyo.classList.remove('active');
-    popup_l2_coyo.classList.remove('active');
+cerrar_l1_cuau.addEventListener('click' ,function(){
+    overlay_l1_cuau.classList.remove('active');
+    popup_l1_cuau.classList.remove('active');
 });
 
 
-var btn_l3_coyo = document.getElementById("btn_l3_coyo"),
-    overlay_l3_coyo = document.getElementById("overlay_l3_coyo"),
-    popup_l3_coyo = document.getElementById("popup_l3_coyo"),
-    cerrar_l3_coyo = document.getElementById("cerrar_l3_coyo");
+var btn_l2_cuau = document.getElementById("btn_l2_cuau"),
+    overlay_l2_cuau = document.getElementById("overlay_l2_cuau"),
+    popup_l2_cuau = document.getElementById("popup_l2_cuau"),
+    cerrar_l2_cuau = document.getElementById("cerrar_l2_cuau");
 
-    btn_l3_coyo.addEventListener('mousedown', function(){
-    overlay_l3_coyo.classList.add('active');
-    popup_l3_coyo.classList.add('active');
+    btn_l2_cuau.addEventListener('mousedown', function(){
+    overlay_l2_cuau.classList.add('active');
+    popup_l2_cuau.classList.add('active');
 });
 
-cerrar_l3_coyo.addEventListener('click' ,function(){
-    overlay_l3_coyo.classList.remove('active');
-    popup_l3_coyo.classList.remove('active');
-});
-
-
-var btn_l4_coyo = document.getElementById("btn_l4_coyo"),
-    overlay_l4_coyo = document.getElementById("overlay_l4_coyo"),
-    popup_l4_coyo = document.getElementById("popup_l4_coyo"),
-    cerrar_l4_coyo = document.getElementById("cerrar_l4_coyo");
-
-    btn_l4_coyo.addEventListener('mousedown', function(){
-    overlay_l4_coyo.classList.add('active');
-    popup_l4_coyo.classList.add('active');
-});
-
-cerrar_l4_coyo.addEventListener('click' ,function(){
-    overlay_l4_coyo.classList.remove('active');
-    popup_l4_coyo.classList.remove('active');
+cerrar_l2_cuau.addEventListener('click' ,function(){
+    overlay_l2_cuau.classList.remove('active');
+    popup_l2_cuau.classList.remove('active');
 });
 
 
-var btn_l5_coyo = document.getElementById("btn_l5_coyo"),
-    overlay_l5_coyo = document.getElementById("overlay_l5_coyo"),
-    popup_l5_coyo = document.getElementById("popup_l5_coyo"),
-    cerrar_l5_coyo = document.getElementById("cerrar_l5_coyo");
+var btn_l3_cuau = document.getElementById("btn_l3_cuau"),
+    overlay_l3_cuau = document.getElementById("overlay_l3_cuau"),
+    popup_l3_cuau = document.getElementById("popup_l3_cuau"),
+    cerrar_l3_cuau = document.getElementById("cerrar_l3_cuau");
 
-    btn_l5_coyo.addEventListener('mousedown', function(){
-    overlay_l5_coyo.classList.add('active');
-    popup_l5_coyo.classList.add('active');
+    btn_l3_cuau.addEventListener('mousedown', function(){
+    overlay_l3_cuau.classList.add('active');
+    popup_l3_cuau.classList.add('active');
 });
 
-cerrar_l5_coyo.addEventListener('click' ,function(){
-    overlay_l5_coyo.classList.remove('active');
-    popup_l5_coyo.classList.remove('active');
+cerrar_l3_cuau.addEventListener('click' ,function(){
+    overlay_l3_cuau.classList.remove('active');
+    popup_l3_cuau.classList.remove('active');
+});
+
+
+var btn_l4_cuau = document.getElementById("btn_l4_cuau"),
+    overlay_l4_cuau = document.getElementById("overlay_l4_cuau"),
+    popup_l4_cuau = document.getElementById("popup_l4_cuau"),
+    cerrar_l4_cuau = document.getElementById("cerrar_l4_cuau");
+
+    btn_l4_cuau.addEventListener('mousedown', function(){
+    overlay_l4_cuau.classList.add('active');
+    popup_l4_cuau.classList.add('active');
+});
+
+cerrar_l4_cuau.addEventListener('click' ,function(){
+    overlay_l4_cuau.classList.remove('active');
+    popup_l4_cuau.classList.remove('active');
+});
+
+
+var btn_l5_cuau = document.getElementById("btn_l5_cuau"),
+    overlay_l5_cuau = document.getElementById("overlay_l5_cuau"),
+    popup_l5_cuau = document.getElementById("popup_l5_cuau"),
+    cerrar_l5_cuau = document.getElementById("cerrar_l5_cuau");
+
+    btn_l5_cuau.addEventListener('mousedown', function(){
+    overlay_l5_cuau.classList.add('active');
+    popup_l5_cuau.classList.add('active');
+});
+
+cerrar_l5_cuau.addEventListener('click' ,function(){
+    overlay_l5_cuau.classList.remove('active');
+    popup_l5_cuau.classList.remove('active');
+});
+//Fin Cuau
+
+
+
+
+
+// MORELOS
+
+var btn_l1_morelos = document.getElementById("btn_l1_morelos"),
+    overlay_l1_morelos = document.getElementById("overlay_l1_morelos"),
+    popup_l1_morelos = document.getElementById("popup_l1_morelos"),
+    cerrar_l1_morelos = document.getElementById("cerrar_l1_morelos");
+
+    btn_l1_morelos.addEventListener('mousedown', function(){
+    overlay_l1_morelos.classList.add('active');
+    popup_l1_morelos.classList.add('active');
+});
+
+cerrar_l1_morelos.addEventListener('click' ,function(){
+    overlay_l1_morelos.classList.remove('active');
+    popup_l1_morelos.classList.remove('active');
+});
+
+
+var btn_l2_morelos = document.getElementById("btn_l2_morelos"),
+    overlay_l2_morelos = document.getElementById("overlay_l2_morelos"),
+    popup_l2_morelos = document.getElementById("popup_l2_morelos"),
+    cerrar_l2_morelos = document.getElementById("cerrar_l2_morelos");
+
+    btn_l2_morelos.addEventListener('mousedown', function(){
+    overlay_l2_morelos.classList.add('active');
+    popup_l2_morelos.classList.add('active');
+});
+
+cerrar_l2_morelos.addEventListener('click' ,function(){
+    overlay_l2_morelos.classList.remove('active');
+    popup_l2_morelos.classList.remove('active');
+});
+
+
+var btn_l3_morelos = document.getElementById("btn_l3_morelos"),
+    overlay_l3_morelos = document.getElementById("overlay_l3_morelos"),
+    popup_l3_morelos = document.getElementById("popup_l3_morelos"),
+    cerrar_l3_morelos = document.getElementById("cerrar_l3_morelos");
+
+    btn_l3_morelos.addEventListener('mousedown', function(){
+    overlay_l3_morelos.classList.add('active');
+    popup_l3_morelos.classList.add('active');
+});
+
+cerrar_l3_morelos.addEventListener('click' ,function(){
+    overlay_l3_morelos.classList.remove('active');
+    popup_l3_morelos.classList.remove('active');
+});
+
+
+var btn_l4_morelos = document.getElementById("btn_l4_morelos"),
+    overlay_l4_morelos = document.getElementById("overlay_l4_morelos"),
+    popup_l4_morelos = document.getElementById("popup_l4_morelos"),
+    cerrar_l4_morelos = document.getElementById("cerrar_l4_morelos");
+
+    btn_l4_morelos.addEventListener('mousedown', function(){
+    overlay_l4_morelos.classList.add('active');
+    popup_l4_morelos.classList.add('active');
+});
+
+cerrar_l4_morelos.addEventListener('click' ,function(){
+    overlay_l4_morelos.classList.remove('active');
+    popup_l4_morelos.classList.remove('active');
+});
+
+
+var btn_l5_morelos = document.getElementById("btn_l5_morelos"),
+    overlay_l5_morelos = document.getElementById("overlay_l5_morelos"),
+    popup_l5_morelos = document.getElementById("popup_l5_morelos"),
+    cerrar_l5_morelos = document.getElementById("cerrar_l5_morelos");
+
+    btn_l5_morelos.addEventListener('mousedown', function(){
+    overlay_l5_morelos.classList.add('active');
+    popup_l5_morelos.classList.add('active');
+});
+
+cerrar_l5_morelos.addEventListener('click' ,function(){
+    overlay_l5_morelos.classList.remove('active');
+    popup_l5_morelos.classList.remove('active');
 });
